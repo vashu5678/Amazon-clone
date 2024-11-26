@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #eaeded;
+    position: absolute;
+
+}
+.main{
+    height: 40%;
+    width: 70%;
+    background-color: #ffffff;
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+.one{
+    padding: 3%;
+    line-height: 35px;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width:450px) {
+    .main{
+        height: auto;
+    }
+}
